@@ -1,0 +1,70 @@
+body {
+    direction: rtl;
+    background-image: url(imgs/bkgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Tajawal;
+    font-weight: 800;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#citys {
+    font-size: 60px;
+    font-family: Tajawal;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(190, 190, 116);
+    margin: 50px 0 50px 50px;
+    outline: 0;
+}
+
+#date {
+    font-size: 50px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.crd {
+    min-height: 150px;
+    min-width: 250px;
+    background-color: bisque;
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 20px;
+}
+
+.crd hr {
+    width: 50%;
+    border: 1px solid rgb(9, 9, 9);
+    color: rgb(12, 12, 11);
+    margin: 5px 0;
+}
+
+.crd .name {
+    margin-top: 20px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 300px;
+}
+
+#myname {
+    color: aquamarine;
+}
