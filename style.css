@@ -62,9 +62,48 @@ body {
 
 #footer {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 250px;
 }
 
 #myname {
     color: aquamarine;
+}
+
+.city-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.city-icon {
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    #citys {
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .city-icon {
+        width: 70px;
+    }
+
+    #dateTime,
+    #dateDays {
+        font-size: 24px;
+    }
+
+    .crd {
+        width: 90%;
+    }
+
+    #cards {
+        flex-direction: column;
+        align-items: center;
+    }
 }
